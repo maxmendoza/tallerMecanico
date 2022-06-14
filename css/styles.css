@@ -22,3 +22,24 @@ a{
     width: 100%;
     height: 150px;
 }
+
+.backgroundCard{
+    background-image: url(../assets/img/mancha2Blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundCard1{
+    background-image: url(../assets/img/mancha2Left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundCard2{
+    background-image: url(../assets/img/mancha1Blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundCard3{
+    background-image: url(../assets/img/mancha1Right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
