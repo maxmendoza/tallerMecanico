@@ -1,4 +1,15 @@
 a{
     color: #1E9CD0;
-    
+    text-decoration: none;
+}
+
+.btnColor{
+    background-color: #1E9CD0;
+    color: white;
+}
+
+.backgroundManchaAbajo{
+    background-image: url(../assets/img/backgroundImg.png);
+    background-repeat: no-repeat;
+   background-size: cover;
 }
