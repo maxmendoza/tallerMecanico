@@ -43,3 +43,8 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+table {
+    border:1px !important;
+    color: #1E9CD0;
+}
