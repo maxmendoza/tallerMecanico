@@ -8,10 +8,18 @@ a{
     color: white;
 }
 
+
 .backgroundCustom{
-    background-image: url(../assets/img/backgroundImg.png);
-    background-repeat: no-repeat;
-   background-size: cover;
+
+    background-color: #1E9CD0;
+}
+
+@media (min-width: 768px){
+    .backgroundCustom{
+        background-image: url(../assets/img/backgroundImg.png);
+        background-repeat: no-repeat;
+       background-size: cover;
+    }
 }
 
 .imgCarousel{
@@ -182,4 +190,12 @@ a{
 table {
     border:1px !important;
     color: #1E9CD0;
+}
+
+
+.logButton{
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 50%;
+    margin-left: 25%;
 }

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
 </head>
-<body>
+<body class="backgroundCustom">
     <header>
         <nav class="navbar bg-light fixed-top">
             <div class="container-fluid">
@@ -27,7 +27,7 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">
+                      <a class="nav-link active" aria-current="page" href="menuInicial.html">
                           <button type="button" class="btn btn-primary position-relative" style="width: 100%;">
                             Inicio
                       </button>
@@ -47,19 +47,31 @@
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                         <li><a class="dropdown-item" href="../screens/listadoServicios.html">Servicios</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Clientes</a></li>
+                        <li><a class="dropdown-item" href="#">Estado</a></li>
                         <li>
                           <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Facturas</a></li>
                       </ul>
                     </li>
                   </ul>
                   <br>
-                  <form class="d-flex" role="search">
+                  <br>
+                
+                  <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 logButton">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                          <button type="button" class="btn btn-danger position-sticky" style="width: 100%;">
+                            Cerrar Sesión
+                      </button>
+                    </a>
+                  </li>
+                  </ul>
+                  <!-- <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                  </form> -->
                 </div>
               </div>
             </div>
@@ -114,7 +126,8 @@
     <br>
     <div class="container" style="margin-bottom: 10%;">
     <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
+      <a href="../screens/listadoServicios.html">  
+      <div class="col">
           <div class="card backgroundCard2 demo_wrap">
             <br>
             <!-- <img src="../assets/img/undraw_vehicle_sale_a645.svg" class="card-img-top imgCards imgCards" alt="../assets/img/undraw_vehicle_sale_a645.svg"> -->
@@ -124,6 +137,8 @@
             </div>
           </div>
         </div>
+        </a>
+        <a href="../screens/clientes.html">
         <div class="col">
           <div class="card backgroundCard3 demo_wrap2">
             <br>
@@ -134,6 +149,8 @@
             </div>
           </div>
         </div>
+      </a>
+        <a href="">
         <div class="col">
           <div class="card backgroundCard1 demo_wrap3">
                <br>
@@ -144,6 +161,8 @@
             </div>
           </div>
         </div>
+      </a>
+        <a href="">
         <div class="col">
           <div class="card backgroundCard demo_wrap4">
             <br>
@@ -154,6 +173,7 @@
             </div>
           </div>
         </div>
+      </a>
       </div>
     </div>
 
